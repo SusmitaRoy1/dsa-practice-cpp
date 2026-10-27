@@ -1,19 +1,21 @@
-# DSA Practice &mdash; C++
+# DSA Practice &mdash; C++ &amp; SQL
 
-Solutions to **100 LeetCode problems**, written in C++ and organised by topic.
+Solutions to **118 LeetCode problems**: 100 data structures &amp; algorithms problems in C++ and 18 database problems in MySQL, organised by topic.
 
 | | |
 |---|---|
-| Problems solved | **100** |
-| Easy / Medium / Hard | 42 / 54 / 4 |
-| Medium or harder | **58%** |
-| Language | C++ |
+| Problems solved | **118** |
+| C++ (algorithms) | **100** &mdash; Easy / Medium / Hard: 42 / 54 / 4 |
+| C++ medium or harder | **58%** |
+| SQL (MySQL, [Database](./Database/)) | **18** &mdash; Easy / Medium: 16 / 2 |
+| Languages | C++, MySQL |
 | LeetCode profile | [SusmitaRoy](https://leetcode.com/u/SusmitaRoy/) |
 
 ## Topics
 
 | Topic | Problems | Easy | Medium | Hard |
 |-------|----------|------|--------|------|
+| [Database](./Database/) | 18 | 16 | 2 | 0 |
 | [Trees](./Trees/) | 16 | 7 | 9 | 0 |
 | [TwoPointers](./TwoPointers/) | 14 | 6 | 8 | 0 |
 | [Graphs](./Graphs/) | 10 | 4 | 6 | 0 |
@@ -27,9 +29,9 @@ Solutions to **100 LeetCode problems**, written in C++ and organised by topic.
 | [Matrix](./Matrix/) | 3 | 1 | 2 | 0 |
 | [Backtracking](./Backtracking/) | 2 | 0 | 2 | 0 |
 | [Math](./Math/) | 2 | 1 | 1 | 0 |
-| [Arrays](./Arrays/) | 1 | 1 | 0 | 0 |
-| [BitManipulation](./BitManipulation/) | 1 | 1 | 0 | 0 |
 | [QueueAndHeap](./QueueAndHeap/) | 1 | 1 | 0 | 0 |
+| [BitManipulation](./BitManipulation/) | 1 | 1 | 0 | 0 |
+| [Arrays](./Arrays/) | 1 | 1 | 0 | 0 |
 
 ## All problems
 
@@ -74,6 +76,7 @@ Solutions to **100 LeetCode problems**, written in C++ and organised by topic.
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | HashTable | [C++](./HashTable/0169-majority-element/solution.cpp) |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium | Trees | [C++](./Trees/0173-binary-search-tree-iterator/solution.cpp) |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | TwoPointers | [C++](./TwoPointers/0189-rotate-array/solution.cpp) |
+| 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | Database | [SQL](./Database/0197-rising-temperature/solution.sql) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | DynamicProgramming | [C++](./DynamicProgramming/0198-house-robber/solution.cpp) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | Graphs | [C++](./Graphs/0200-number-of-islands/solution.cpp) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | LinkedList | [C++](./LinkedList/0206-reverse-linked-list/solution.cpp) |
@@ -107,7 +110,12 @@ Solutions to **100 LeetCode problems**, written in C++ and organised by topic.
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | Trees | [C++](./Trees/0543-diameter-of-binary-tree/solution.cpp) |
 | 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | Graphs | [C++](./Graphs/0547-number-of-provinces/solution.cpp) |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | PrefixSum | [C++](./PrefixSum/0560-subarray-sum-equals-k/solution.cpp) |
+| 570 | [Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) | Medium | Database | [SQL](./Database/0570-managers-with-at-least-5-direct-reports/solution.sql) |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | Trees | [C++](./Trees/0572-subtree-of-another-tree/solution.cpp) |
+| 577 | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | Easy | Database | [SQL](./Database/0577-employee-bonus/solution.sql) |
+| 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | Easy | Database | [SQL](./Database/0584-find-customer-referee/solution.sql) |
+| 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | [SQL](./Database/0595-big-countries/solution.sql) |
+| 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | Easy | Database | [SQL](./Database/0620-not-boring-movies/solution.sql) |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy | SlidingWindow | [C++](./SlidingWindow/0643-maximum-average-subarray-i/solution.cpp) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | BinarySearch | [C++](./BinarySearch/0704-binary-search/solution.cpp) |
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | Matrix | [C++](./Matrix/0733-flood-fill/solution.cpp) |
@@ -126,11 +134,23 @@ Solutions to **100 LeetCode problems**, written in C++ and organised by topic.
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | Graphs | [C++](./Graphs/0997-find-the-town-judge/solution.cpp) |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | SlidingWindow | [C++](./SlidingWindow/1004-max-consecutive-ones-iii/solution.cpp) |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium | Trees | [C++](./Trees/1008-construct-binary-search-tree-from-preorder-traversal/solution.cpp) |
+| 1068 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | Easy | Database | [SQL](./Database/1068-product-sales-analysis-i/solution.sql) |
+| 1075 | [Project Employees I](https://leetcode.com/problems/project-employees-i/) | Easy | Database | [SQL](./Database/1075-project-employees-i/solution.sql) |
+| 1148 | [Article Views I](https://leetcode.com/problems/article-views-i/) | Easy | Database | [SQL](./Database/1148-article-views-i/solution.sql) |
 | 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | Medium | SlidingWindow | [C++](./SlidingWindow/1248-count-number-of-nice-subarrays/solution.cpp) |
+| 1251 | [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | Easy | Database | [SQL](./Database/1251-average-selling-price/solution.sql) |
+| 1280 | [Students and Examinations](https://leetcode.com/problems/students-and-examinations/) | Easy | Database | [SQL](./Database/1280-students-and-examinations/solution.sql) |
+| 1378 | [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | Easy | Database | [SQL](./Database/1378-replace-employee-id-with-the-unique-identifier/solution.sql) |
 | 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | Medium | SlidingWindow | [C++](./SlidingWindow/1423-maximum-points-you-can-obtain-from-cards/solution.cpp) |
+| 1581 | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | Easy | Database | [SQL](./Database/1581-customer-who-visited-but-did-not-make-any-transactions/solution.sql) |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | Graphs | [C++](./Graphs/1584-min-cost-to-connect-all-points/solution.cpp) |
+| 1633 | [Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | Easy | Database | [SQL](./Database/1633-percentage-of-users-attended-a-contest/solution.sql) |
+| 1661 | [Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) | Easy | Database | [SQL](./Database/1661-average-time-of-process-per-machine/solution.sql) |
+| 1683 | [Invalid Tweets](https://leetcode.com/problems/invalid-tweets/) | Easy | Database | [SQL](./Database/1683-invalid-tweets/solution.sql) |
+| 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | Easy | Database | [SQL](./Database/1757-recyclable-and-low-fat-products/solution.sql) |
 | 1791 | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | Easy | Graphs | [C++](./Graphs/1791-find-center-of-star-graph/solution.cpp) |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | Medium | Stack | [C++](./Stack/1910-remove-all-occurrences-of-a-substring/solution.cpp) |
+| 1934 | [Confirmation Rate](https://leetcode.com/problems/confirmation-rate/) | Medium | Database | [SQL](./Database/1934-confirmation-rate/solution.sql) |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | Graphs | [C++](./Graphs/1971-find-if-path-exists-in-graph/solution.cpp) |
 | 2161 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | TwoPointers | [C++](./TwoPointers/2161-partition-array-according-to-given-pivot/solution.cpp) |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | Easy | HashTable | [C++](./HashTable/2965-find-missing-and-repeated-values/solution.cpp) |
@@ -141,7 +161,7 @@ Solutions to **100 LeetCode problems**, written in C++ and organised by topic.
 ```
 <Topic>/
   <id>-<problem-slug>/
-    solution.cpp   accepted C++ solution
+    solution.cpp   accepted C++ solution (solution.sql under Database/)
     README.md      problem link, difficulty, tags, runtime/memory
 ```
 
@@ -149,7 +169,7 @@ Each problem sits under a single primary topic. Problems usually carry several L
 
 ## Notes
 
-- Problems were solved between **2025-07-19** and **2026-10-22**; this repository was created on **2026-09-23**, so commit dates reflect the import, not the original solve dates.
+- Problems were solved between **2025-07-19** and **2026-10-25**; this repository was created on **2026-09-23**, so commit dates reflect the import, not the original solve dates.
 - Runtime and memory figures are as reported by LeetCode at submission time.
 - Written approach and complexity notes are being added to each problem README progressively.
 
@@ -160,3 +180,5 @@ g++ -std=c++17 -O2 -Wall solution.cpp -o solution
 ```
 
 Files contain the LeetCode `Solution` class as submitted; add a `main()` to run one locally.
+
+SQL solutions under `Database/` are MySQL queries as submitted; each runs against the schema given on its LeetCode problem page.
